@@ -1,0 +1,25 @@
+{
+  "name": "wwwizard",
+  "version": "1.0.0",
+  "description": "bootstrap code for the wordpress website",
+  "source": "./front-page.php",
+  "scripts": {
+    "dev": "parcel",
+    "start": "wp-scripts start",
+    "build": "parcel build"
+  },
+  "author": "Ron Dayan",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@wordpress/scripts": "^25.5.1",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "jsonfile": "^6.1.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}

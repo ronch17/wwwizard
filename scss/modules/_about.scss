@@ -1,0 +1,20 @@
+.about-me {
+  min-height: 100vh;
+  box-shadow: 0px 20px 5px -20px rgb(0 0 0 / 45%);
+}
+
+.me img {
+  width: 50%;
+  clip-path: circle(50% at 50% 50%);
+  background: #c5d3d9;
+}
+
+.accordion-button {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1rem 6rem;
+
+  &::after {
+    margin-left: 10px !important;
+  }
+}

@@ -1,0 +1,23 @@
+@import "./modules/variables";
+@import "./modules/text";
+@import "./modules/nav";
+@import "./modules/section_2";
+@import "./modules/font";
+@import "./modules/buttons";
+@import "./modules/projects";
+@import "./modules/about";
+@import "./modules/contact";
+@import "./modules/footer";
+@import "./modules/popover";
+
+$custom-colors: (
+  "custom-color": #3b4996,
+);
+
+@import "~bootstrap/scss/_functions";
+@import "~bootstrap/scss/_variables";
+@import "~bootstrap/scss/_mixins";
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "~bootstrap/scss/bootstrap";

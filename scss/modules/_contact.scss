@@ -1,0 +1,25 @@
+.wizard-hat {
+  width: 100%;
+  position: relative;
+
+  @media (min-width: 768px) {
+    width: 80%;
+    position: relative;
+  }
+}
+
+form {
+  position: absolute;
+  z-index: 1;
+
+  @media (min-width: 999px) {
+    padding-bottom: 10rem;
+    width: 25%;
+  }
+
+  @media (max-width: 768px) {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+}

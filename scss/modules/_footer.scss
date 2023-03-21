@@ -1,0 +1,17 @@
+footer {
+  height: 70vh;
+  background: #3a4996;
+  clip-path: ellipse(100% 74% at 50% 92%);
+}
+
+footer .nav-link {
+  color: white !important;
+}
+
+.wizard-icon {
+  @media (min-width: 520px) {
+    width: 7% !important;
+  }
+
+  width: 20% !important;
+}

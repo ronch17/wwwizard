@@ -1,0 +1,39 @@
+.logo {
+  max-width: 30%;
+}
+
+nav {
+  z-index: 1;
+}
+
+a.nav-link {
+  @media (min-width: 768px) {
+    color: white;
+  }
+}
+
+.nav-desktop {
+  z-index: 99;
+}
+
+.hamburger-nav {
+  width: 15%;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.sticky-nav {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+    background: #3b4996;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    padding: 1rem 3rem;
+    box-shadow: 0 20px 5px -20px #00000073;
+    opacity: 0%;
+    transition: opacity 0.5s ease-in-out !important;
+  }
+}

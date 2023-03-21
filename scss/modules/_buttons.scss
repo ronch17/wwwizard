@@ -1,0 +1,14 @@
+.custom-btns {
+  border: 1px solid white !important;
+  color: white !important;
+
+  &:hover {
+    border: 1px solid white !important;
+    color: #3b4996 !important;
+    background: white !important;
+  }
+}
+
+.nav-btn {
+  white-space: nowrap;
+}

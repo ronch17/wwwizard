@@ -1,0 +1,54 @@
+.main-section .rtl {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  left: 35px;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.services-list.rtl {
+  gap: 1rem;
+  position: relative;
+  left: 35px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+.custom-gradient {
+  --bg-size: 400%;
+  --color-one: #4445ee;
+  --color-two: #cbccf6;
+  background: linear-gradient(
+      90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)
+    )
+    0 0 / var(--bg-size) 100%;
+  color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .custom-gradient {
+    animation: move-bg 8s linear infinite;
+  }
+  @keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
+}
