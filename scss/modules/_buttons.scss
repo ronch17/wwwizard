@@ -12,3 +12,14 @@
 .nav-btn {
   white-space: nowrap;
 }
+
+.custom-btns-blue {
+  border: 1px solid #3a4996 !important;
+  color: #3a4996 !important;
+
+  &:hover {
+    border: 1px solid #3a4996 !important;
+    color: white !important;
+    background: #3a4996 !important;
+  }
+}

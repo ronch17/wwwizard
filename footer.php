@@ -20,27 +20,27 @@
           <div class="col-sm-4">
             <ul class="nav p-0 flex-column flex-md-row justify-content-center rtl">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#main"
+                <a class="nav-link custom-link" aria-current="page" href="#main"
                   >ראשי</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#services">השירותים שלי</a>
+                <a class="nav-link custom-link" href="#services">השירותים שלי</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">יצירות אחרונות</a>
+                <a class="nav-link custom-link" href="#projects">יצירות אחרונות</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">אודות</a>
+                <a class="nav-link custom-link" href="#about">אודות</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">צרו קשר</a>
+                <a class="nav-link custom-link" href="#contact">צרו קשר</a>
               </li>
             </ul>
           </div>
           <div class="col-sm-4 d-flex gap-2 justify-content-center text-light h2">
-            <i class="bi bi-linkedin"></i><i class="bi bi-github"></i
-            ><i class="bi bi-facebook"></i>
+            <a href="https://www.linkedin.com/in/rondeveloper"  target="_blank"><i class="bi bi-linkedin text-light"></i><a href="https://github.com/ronch17"  target="_blank"><i class="bi bi-github text-light"></i
+            ></a><a href="https://www.facebook.com/wwWizardd" target="_blank"><i class="bi bi-facebook text-light"></i></a>
           </div>
         </div>
         <div class="row text-center pt-5 d-flex justify-content-center text-light">

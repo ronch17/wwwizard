@@ -63,7 +63,7 @@
       <div class="row g-3">
         <div class="col-md-4 d-flex justify-content-center">
           <div class="card" style="width: 18rem">
-            <div class="card-body text-end">
+            <div class="card-body text-end  d-flex flex-column justify-content-around"> 
               <div class="d-flex justify-content-center  justify-content-md-end">
               <img
                 src="<?php echo get_theme_file_uri('/images/design-services.png'); ?>"
@@ -77,13 +77,18 @@
                <li class="bi bi-magic d-flex gap-2"><p> הנפשות</p></li>
                <li class="bi bi-magic d-flex gap-2"><p> עיצוב אייקונים ולוגואים</p></li>
               </ul>
-              <a href="#projects" class="card-link">לפרויקטים</a>
+              <div class="d-flex justify-content-center justify-content-md-end">
+              <a href="#projects" class="card-link">      <button
+                class="btn btn-outline-primary me-md-2 rounded-1 custom-btns-blue"
+                type="button"
+              >לפרויקטים
+              </button></a></div>
             </div>
           </div>
         </div>
         <div class="col-md-4 d-flex justify-content-center">
           <div class="card" style="width: 18rem">
-            <div class="card-body text-end">
+            <div class="card-body text-end  d-flex flex-column justify-content-around">
             <div class="d-flex justify-content-center  justify-content-md-end">
               <img
                 src="<?php echo get_theme_file_uri('/images/web-services.png'); ?>"
@@ -97,13 +102,18 @@
                <li class="bi bi-magic d-flex gap-2"><p> פיתוח אתרים ואפליקציות ב <code>HTML, CSS, SASS, JavaScript, React, Php, Node</code></p></li>
                <li class="bi bi-magic d-flex gap-2"><p> התממשקות האתר לוורדפרס</p></li>
               </ul>
-              <a href="#projects" class="card-link">לפרויקטים</a>
+              <div class="d-flex justify-content-center justify-content-md-end">
+              <a href="#projects" class="card-link"><button
+                class="btn btn-outline-primary me-md-2 rounded-1 custom-btns-blue"
+                type="button"
+              >לפרויקטים
+              </button></a></div>
             </div>
           </div>
         </div>
         <div class="col-md-4 d-flex justify-content-center">
           <div class="card" style="width: 18rem">
-            <div class="card-body text-end">
+            <div class="card-body text-end  d-flex flex-column justify-content-around">
             <div class="d-flex justify-content-center  justify-content-md-end">
               <img
                 src="<?php echo get_theme_file_uri('/images/seo-services.png'); ?>"
@@ -117,7 +127,12 @@
                <li class="bi bi-magic d-flex gap-2"><p> אופטימיזציה וחיבור של האתר לפייסבוק ואינסטגרם</p></li>
                <li class="bi bi-magic d-flex gap-2"><p> חיבור לWhatsapp ולצ'אט</p></li>
               </ul>
-              <a href="#projects" class="card-link">לפרויקטים</a>
+              <div class="d-flex justify-content-center justify-content-md-end">
+              <a href="#projects" class="card-link"><button
+                class="btn btn-outline-primary me-md-2 rounded-1 custom-btns-blue"
+                type="button"
+              >לפרויקטים
+              </button></a></div>
             </div>
           </div>
         </div>
@@ -443,6 +458,7 @@
 
             אני מאמין שלכל אחד יש את היצירתיות בה הוא ניחן, ולשם זה אני כאן בשביל להיות הקוסם הדיגיטלי שלכם, שיבטא ויעביר את היחודיות שלכם לתוך העיצוב והאתר לעסק/פורטפוליו/בלוג/אפליקציה שלכם.
           </p>
+          
           <div class="accordion rtl" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">

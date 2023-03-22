@@ -37,3 +37,16 @@ a.nav-link {
     transition: opacity 0.5s ease-in-out !important;
   }
 }
+
+.offcanvas-body .nav-link {
+  color: #3b4996;
+  font-weight: 600;
+}
+
+.offcanvas-header img {
+  width: 25%;
+}
+
+.mobile-navbar {
+  width: 60% !important;
+}

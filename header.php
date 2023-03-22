@@ -77,13 +77,13 @@
         />
 
         <div
-          class="offcanvas offcanvas-end rtl"
+          class="offcanvas offcanvas-end mobile-navbar"
           tabindex="-1"
           id="offcanvasTop"
           aria-labelledby="offcanvasTopLabel"
         >
           <div class="offcanvas-header">
-            <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+            <img src="<?php echo get_theme_file_uri("./images/logo.png"); ?>" alt="logo">
             <button
               type="button"
               class="btn-close text-reset"
@@ -91,7 +91,7 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body">
+          <div class="offcanvas-body rtl">
             <ul class="nav flex-column d-lg-none">
             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#main">ראשי</a>
